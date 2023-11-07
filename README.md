@@ -1,0 +1,19 @@
+# LabView Photon Tomography
+This is a simple linear tomography tool for polarization of photon pairs in LabView.
+
+## Usage
+
+A linear tomography requires 16 times of measurements on both photons. You can check the recommended wave plate setup in the table, and fill in the coincidence counts in the last column. For the limitation of linear tomography, the density matrix may not lead to a physical reasonable state.
+
+
+
+![Alt text](image.png)
+
+
+## More about photon tomography
+The theory and example is illustrated in paper ![Measurement of qubits](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.64.052312).
+
+Please note there are some 
+
+Find more about quantum tomography at website of  ![Kwiat Quantum Information Group](http://research.physics.illinois.edu/QI/Photonics/Tomography/).
+They have a much more detailed implementation in matlab and python with a online interface.
